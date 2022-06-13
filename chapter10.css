@@ -3,3 +3,55 @@
   margin:0;
   box-sizing:border-box;
 }
+header {
+  height:50px;
+  background-color:#FF9A4B;
+}
+main {
+  width:960px;
+  margin:50px auto;
+  display:flex;
+}
+.main-box {
+  width:300px;
+  padding:10px;
+  margin-right:30px;
+  background-color:#EEE;
+  position:relative;
+}
+.main-box:nth-last-child(1) {
+  margin-right:0;
+}
+.image-1th {
+  background-image:url(img/flow01.png);
+  background-size:cover;
+  background-position:bottom;
+  height:150px;
+}
+.image-2th {
+  background-image:url(img/flow02.png);
+  background-size:cover;
+  background-position:bottom;
+  height:150px;
+}
+.image-3th {
+  background-image:url(img/flow03.png);
+  background-size:cover;
+  background-position:bottom;
+  height:150px;
+}
+span {
+  background-color:#FF9A4B;
+  color:#FFF;
+  position:absolute;
+  top:0;
+  left:0;
+}
+h3 {
+  margin-top:15px;
+  margin-bottom:5px;
+}
+footer {
+  height:50px;
+  background-color:#AAA;
+}
