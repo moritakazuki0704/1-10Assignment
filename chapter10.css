@@ -55,3 +55,25 @@ footer {
   height:50px;
   background-color:#AAA;
 }
+@media screen and (max-width:768px) {
+  main {
+    width:100%;
+    flex-direction:column;
+  }
+  .main-box {
+    width:90%;
+    margin:0 auto 20px;
+  }
+  .main-box:nth-last-child(1) {
+    margin:0 auto;
+  }
+  .image-1th {
+    background-position:center 75%;
+  }
+  .image-2th {
+    background-position:center 75%;
+  }
+  .image-3th {
+    background-position:center 75%;
+  }
+}
